@@ -1,0 +1,121 @@
+/* Write CSS here */
+
+.stop-watch-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 32px;
+  color: '#333333';
+  margin-left: 30px;
+  margin-bottom: 24px;
+}
+
+.stop-watch-con {
+  margin-left: 40px;
+}
+.stop-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 14px;
+  margin-right: 12px;
+}
+
+.timer-bg-color {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+.timer-container {
+  display: flex;
+}
+.timer-description {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: '#333333';
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 30%;
+}
+.timer-run-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 26px;
+  color: '#333333';
+  margin-bottom: 24px;
+}
+.reset-btn {
+  color: #ffffff;
+  background-color: #eaa800;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 10px;
+}
+
+.stop-btn {
+  color: #ffffff;
+  background-color: #ef0d36;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 10px;
+}
+
+.start-btn {
+  color: #ffffff;
+  background-color: #1db05f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-run-heading {
+    font-size: 36px;
+  }
+  .stop-img {
+    width: 25px;
+    height: 25px;
+  }
+  .stop-watch-con {
+    margin-left: 3%;
+  }
+  .stop-watch-heading {
+    font-size: 38px;
+  }
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding-top: 8%;
+    max-width: 1200px;
+    display: flex;
+    padding-left: 10%;
+  }
+  .timer-bg-color {
+    width: 280px;
+  }
+}
